@@ -1,11 +1,11 @@
 (function() {
 
   // Check that functionality doesn't already exist in the browser.
-  if( CanvasRenderingContext2D.prototype.strokeS && CanvasRenderingContext2D.prototype.fillS ) {
+  if( CanvasRenderingContext2D.prototype.s) {
     return;
   }
 
-  CanvasRenderingContext2D.prototype.strokeS = function(x, y, w, h) {
+  CanvasRenderingContext2D.prototype.s = function(x, y, w, h) {
 
     // These are the three secret sacred numbers of the beloved S
     // ~ they are at the root of every argument in tech, hidden behind the scenes.
@@ -35,23 +35,8 @@
     this.lineTo(x + w, y + tipHeight + lineHeight + joinHeight)
     this.lineTo(x + w / 2, y + tipHeight + lineHeight)
     this.lineTo(x + w / 2, y + tipHeight)
-
-    this.stroke();
-  }
-
-  CanvasRenderingContext2D.prototype.fillS = function(x, y, w, h) {
-
   }
 
 })(true);
 
-var canvas = document.createElement('canvas');
-document.body.appendChild(canvas);
-canvas.width = 500;
-canvas.height = 500;
-
-var context = canvas.getContext('2d');
-
-context.lineWidth = 10;
-context.strokeS(10, 10, 50, 300);
 
