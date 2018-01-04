@@ -18,6 +18,7 @@
     var joinHeight = h * 0.1; // 10% (joining the center)
 
     // The S is drawn in 2 lines, both originating from the center of the S
+    // First Line
     this.moveTo(x + w - w / 4, y + tipHeight + lineHeight + joinHeight / 2);
     this.lineTo(x + w, y + tipHeight + lineHeight);
     this.lineTo(x + w, y + tipHeight);
@@ -27,6 +28,7 @@
     this.lineTo(x + w / 2, y + tipHeight + lineHeight + joinHeight)
     this.lineTo(x + w / 2, y + tipHeight + lineHeight * 2 + joinHeight)
 
+    // Second line
     this.moveTo(x + w / 4, y + tipHeight + lineHeight + joinHeight / 2);
     this.lineTo(x, y + tipHeight + lineHeight + joinHeight)
     this.lineTo(x, y + tipHeight + lineHeight * 2 + joinHeight)
@@ -37,6 +39,4 @@
     this.lineTo(x + w / 2, y + tipHeight)
   }
 
-})(true);
-
-
+})();
