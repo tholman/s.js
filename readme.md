@@ -2,7 +2,7 @@
 
 The web canvas is a powerful tool, the API is fairly straight forward, and provides us with the tools to draw almost anything. Circles, squares and lines are the building blocks we have used since the dawn of time...
 
-That said, there is also one other basic shape, that we all learn in school, passed down through generations, as old as time, no one really knows its origin. That piece is:
+That said, there is also one other basic shape... that we all learn in school... passed down through generations... as old as time... no one really knows its origin. That shape is:
 
 ![The S itself](https://i.imgur.com/sGpeOem.png)
 
