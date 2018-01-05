@@ -43,7 +43,7 @@ ctx.fill();
 ctx.stroke();
 ```
 
-## License
+## Licence
 
 Creative Commons ... its not like someone could restrict usage of the beloved S
 
