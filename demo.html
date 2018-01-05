@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Demo for S.JS </title>
+  </head>
+  <body>
+    <canvas></canvas>
+    <script src='s.js'></script>
+    <script>
+      var canvas = document.querySelector('canvas');
+      context = canvas.getContext('2d');
+      context.fillStyle="red";
+      context.lineWidth = 3;
+      context.s(10, 10, 40, 100);
+      context.fill();
+      context.stroke();
+    </script>
+  </body>
+</html>
