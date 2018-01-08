@@ -38,6 +38,7 @@ The `s` function works similar to canvas's `rect` functionality. Once the script
 ```javascript
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
+ctx.fillStyle = "rebeccapurple";
 ctx.s(10, 10, 100, 100);
 ctx.fill();
 ctx.stroke();
